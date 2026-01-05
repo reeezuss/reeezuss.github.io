@@ -3,17 +3,17 @@
   'use strict';
 
   // Theme configuration
-  const themes = ['gruvbox', 'light', 'dark'];
+  const themes = ['warm', 'paper', 'sepia'];
   const themeNames = {
-    gruvbox: 'Gruvbox',
-    light: 'Light',
-    dark: 'Dark'
+    warm: 'Warm',
+    paper: 'Paper',
+    sepia: 'Sepia'
   };
 
-  // Get saved theme or default to gruvbox
+  // Get saved theme or default to warm
   function getSavedTheme() {
     const saved = localStorage.getItem('theme');
-    return saved && themes.includes(saved) ? saved : 'gruvbox';
+    return saved && themes.includes(saved) ? saved : 'warm';
   }
 
   // Set theme on document
@@ -40,8 +40,8 @@
   // Font loading to prevent FOUC
   function loadFonts() {
     const fontPromises = [
-      document.fonts.load('400 1em "Berkeley Mono"'),
-      document.fonts.load('400 1em Merriweather')
+      document.fonts.load('400 1em "Playfair Display"'),
+      document.fonts.load('400 1em "Crimson Text"')
     ];
 
     Promise.all(fontPromises)
