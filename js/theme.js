@@ -40,8 +40,8 @@
   // Font loading to prevent FOUC
   function loadFonts() {
     const fontPromises = [
-      document.fonts.load('400 1em "Playfair Display"'),
-      document.fonts.load('400 1em "Crimson Text"')
+      document.fonts.load('400 1em "Playfair Display", serif'),
+      document.fonts.load('400 1em "Crimson Text", serif')
     ];
 
     Promise.all(fontPromises)
