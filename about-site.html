@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Reeezuss Thoughts - About This Site</title>
+    <meta name="description" content="Technical details about how this blog is built and organized." />
+
+    <link rel="preload" href="./fonts/BerkeleyMono-Regular.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="preload" href="./fonts/Merriweather-Regular.woff2" as="font" type="font/woff2" crossorigin />
+
+    <link rel="stylesheet" href="./css/combined.css" />
+
+    <link rel="alternate" type="application/rss+xml" title="Reeezuss Thoughts" href="./rss.xml" />
+
+    <link rel="icon" type="image/svg+xml" href="./assets/favicon.svg" />
+  </head>
+
+  <body>
+    <div class="navbar-space l-navbar-spacer"></div>
+    <div class="text-space l-content">
+      <header>
+        <div class="logo">
+          <a href="./">Reeezuss Thoughts</a>
+        </div>
+        <nav>
+          <a href="./writings.html">WRITINGS</a>
+          <a href="./bookmarks.html">BOOKMARKS</a>
+          <a href="./videos.html">VIDEOS</a>
+          <a href="./papers.html">PAPERS</a>
+          <a href="./resources.html">RESOURCES</a>
+          <a href="./now.html">NOW</a>
+          <a href="./about.html">ABOUT</a>
+        </nav>
+      </header>
+
+      <div id="content">
+        <section class="post-content">
+          <h1>About This Site</h1>
+          <p class="back-link"><a href="./">← Back to home</a></p>
+
+          <h2>Tech Stack</h2>
+          <ul>
+            <li><strong>HTML5</strong> - Semantic markup and structure</li>
+            <li><strong>CSS3</strong> - Custom properties for theming, responsive design</li>
+            <li><strong>Vanilla JavaScript</strong> - Theme switching and font loading</li>
+            <li><strong>GitHub Pages</strong> - Hosting and deployment</li>
+          </ul>
+
+          <h2>Design</h2>
+          <ul>
+            <li><strong>Minimal, typography-focused design</strong> - Clean and readable</li>
+            <li><strong>Three color themes</strong> - Gruvbox (default), Light, and Dark</li>
+            <li><strong>Card-based content organization</strong> - Easy to scan</li>
+            <li><strong>Responsive across all devices</strong> - Mobile-first approach</li>
+            <li><strong>Custom fonts</strong> - Berkeley Mono for headings/code, Merriweather for body text</li>
+          </ul>
+
+          <h2>Content Organization</h2>
+          <ul>
+            <li><strong>Writings</strong> - Original blog posts and essays</li>
+            <li><strong>Bookmarks</strong> - Curated external articles and resources</li>
+            <li><strong>Videos</strong> - Educational talks and lectures</li>
+            <li><strong>Papers</strong> - Research papers and academic articles</li>
+            <li><strong>Resources</strong> - Useful tools and learning materials</li>
+          </ul>
+
+          <h2>Features</h2>
+          <ul>
+            <li><strong>Theme switcher</strong> - Three themes with localStorage persistence</li>
+            <li><strong>RSS feed</strong> - Subscribe to new writings</li>
+            <li><strong>Fast loading</strong> - Optimized fonts and minimal dependencies</li>
+            <li><strong>Accessible</strong> - Semantic HTML and keyboard navigation</li>
+            <li><strong>SEO-friendly</strong> - Proper meta tags and structure</li>
+          </ul>
+
+          <p>This site is inspired by the clean design of <a href="https://ludwigabap.com/">ludwigabap.com</a>.</p>
+        </section>
+      </div>
+
+      <footer class="c-footer">
+        <div class="footer-content c-footer__content">
+          <div class="footer-left c-footer__left">
+            © 2026 - Reeezuss Thoughts
+          </div>
+          <div class="footer-right c-footer__right">
+            Social links coming soon...
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <div class="theme-switcher c-theme">
+      <button id="theme-cycle-btn" class="theme-cycle-btn c-theme__toggle">
+        Gruvbox
+      </button>
+    </div>
+
+    <script src="./js/theme.js"></script>
+  </body>
+</html>

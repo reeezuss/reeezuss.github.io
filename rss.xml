@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Reeezuss Thoughts</title>
+    <description>A space where I share my ideas, curate interesting content, and document my learning journey.</description>
+    <link>https://reeezuss.github.io/</link>
+    <atom:link href="https://reeezuss.github.io/rss.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language>
+    <lastBuildDate>Mon, 05 Jan 2026 15:00:00 GMT</lastBuildDate>
+    <generator>Reeezuss Thoughts</generator>
+
+    <item>
+      <title>Coming Soon</title>
+      <description>Blog loading in few days...</description>
+      <link>https://reeezuss.github.io/posts/coming-soon.html</link>
+      <guid>https://reeezuss.github.io/posts/coming-soon.html</guid>
+      <pubDate>Mon, 05 Jan 2026 15:00:00 GMT</pubDate>
+      <category>Announcement</category>
+    </item>
+  </channel>
+</rss>
