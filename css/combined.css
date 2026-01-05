@@ -4,7 +4,7 @@
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: url('./fonts/PlayfairDisplay-Regular.ttf') format('truetype');
+  src: url('../fonts/PlayfairDisplay-Regular.ttf') format('truetype');
 }
 
 @font-face {
@@ -12,7 +12,7 @@
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: url('./fonts/CrimsonText-Regular.ttf') format('truetype');
+  src: url('../fonts/CrimsonText-Regular.ttf') format('truetype');
 }
 
 /* CSS Custom Properties for Theming */
